@@ -34,15 +34,17 @@ The hyperparameters evaluated are:
 
 We observe a similar correlational pattern between Mauve and the entropy violation ratio (EVR), and the repeat\_score@5 and the entropy lower-bound violation ratio (ELVR) as observed with the original Wikipedia text completion experiments from the paper
 
+EVR vs Mauve: -0.930
+ELVR vs RepeatScore@5: 0.989
 
 #### Longer Wikipedia Text Completion Experiment:
 We also repeat our Wikipedia completion experiments with prompts up to 256 tokens and generate up to a length of 1024 tokens. This was requested by reviewer k4JZ. We again observe similar correlations as observed in the original experiments indicating our findings hold for newer models and longer sequence lengths. We test the same decoding algorithms and same hyperparameters as above. 
 
 The correlation coefficients are:
 
-EVR vs Mauve: -0.9864
+EVR vs Mauve: -0.986
 
-ELVR vs RepeatScore@5: 0.98922
+ELVR vs RepeatScore@5: 0.989
 
 
 
