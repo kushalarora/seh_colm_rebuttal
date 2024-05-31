@@ -23,10 +23,10 @@ Story:
 We limit the prompts to 256 tokens and generate up to a maximum length of 1024 tokens. We evaluate four decoding approaches: temperature sampling, typical sampling, top-k sampling, and top-p sampling. 
 
 The hyperparameters evaluated are:
-Temperatures: 0.001 0.01 0.1 0.5 0.7 1.0 1.2 1.5
-Top-p (p): 0.15 0.25 0.4 0.5 0.75 0.85 0.9 0.95
-Typical (tau): 0.15 0.25 0.4 0.5 0.75 0.85 0.9 0.95
-Top-k: 5 10 25 50 75 100 500 1000
+- Temperatures: 0.001 0.01 0.1 0.5 0.7 1.0 1.2 1.5
+- Top-p (p): 0.15 0.25 0.4 0.5 0.75 0.85 0.9 0.95
+- Typical (tau): 0.15 0.25 0.4 0.5 0.75 0.85 0.9 0.95
+- Top-k: 5 10 25 50 75 100 500 1000
 
 We observe a similar correlational pattern between Mauve and the entropy violation ratio (EVR) and the repeat score@5 and the entropy lower-bound violation ratio (ELVR) as observed with the Wikipedia text completion experiments. 
 
