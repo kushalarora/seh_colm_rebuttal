@@ -41,6 +41,7 @@ We also repeat our Wikipedia completion experiments with prompts up to 256 token
 The correlation coefficients are:
 
 EVR vs Mauve: -0.9864
+
 ELVR vs RepeatScore@5: 0.98922
 
 
