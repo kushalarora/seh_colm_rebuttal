@@ -38,6 +38,11 @@ We observe a similar correlational pattern between Mauve and the entropy violati
 #### Longer Wikipedia Text Completion Experiment:
 We also repeat our Wikipedia completion experiments with prompts up to 256 tokens and generate up to a length of 1024 tokens. This was requested by reviewer k4JZ. We again observe similar correlations as observed in the original experiments indicating our findings hold for newer models and longer sequence lengths. 
 
+The correlation coefficient are:
+
+EVR vs Mauve: -0.9864
+ELVR vs RepeatScore@5: 0.98922
+
 
 
 
